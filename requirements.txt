@@ -21,6 +21,7 @@ fastapi
 uvicorn
 jinja2
 python-multipart
+python-dotenv
 #to make your written components as local python package to use
 #it looks into your setup.py, so set that up first
 -e .
