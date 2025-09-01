@@ -17,3 +17,11 @@ conda activate visa
 
 Data file
 https://www.kaggle.com/datasets/moro23/easyvisa-dataset?resource=download
+
+Setting up logger and exception, so you don't need to configure them in each file
+
+### from_root
+It resolves paths relative to your project root, not relative to your current working directory.
+
+So instead of worrying about where you launched your script from, you just use from_root to
+specify your path relative to the project root.
